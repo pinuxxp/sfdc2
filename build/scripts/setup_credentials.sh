@@ -16,6 +16,7 @@ solenopsis.env.DEPENDENT=$SOL_SANDBOXNAME
 solenopsis.env.local.HOME=$SRC_DIR
 
 sf.antFile=$TRAVIS_BUILD_DIR/build/ant/ant-salesforce-41.jar
+sf.includePackageFile=$TRAVIS_BUILD_DIR/package.xml
 EOF
 
 mkdir -p $SOL_CREDDIR
